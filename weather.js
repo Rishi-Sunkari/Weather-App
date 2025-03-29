@@ -1,5 +1,5 @@
 async function getweather() {
-    const apikey = "bee4ea38f5c624323a9c199b6a31eeac";
+    const apikey = "your_key";
     const city = document.getElementById("inp").value.trim(); // Trim spaces
     const weatherBox = document.getElementById("weather-box");
     const searchBox = document.getElementById("search-box");
